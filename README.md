@@ -16,17 +16,20 @@ git clone https://github.com/Tixerz/mp3sorter.git
 
 2. Navigate to the project directory
 ```bash
-cd mp3sorter```
+cd mp3sorter
+```
 
 3. compile the source code:
 ```bash
-gcc main.c -o mp3sorter```
+gcc main.c -o mp3sorter
+```
 
 ## Usage
 
 Run the program with:
 ```bash
-./mp3sorter /path/to/mp3/files/```
+./mp3sorter /path/to/mp3/files/
+```
 
 ## Note 
 in future i will add an installer which allows you to run the program automatically in background and having it watch for MP3 files.
