@@ -11,7 +11,8 @@ A command-line tool for orginizing MP3 files efficiently. This program scans a d
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Tixerz/mp3sorter.git```
+git clone https://github.com/Tixerz/mp3sorter.git
+```
 
 2. Navigate to the project directory
 ```bash
