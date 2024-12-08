@@ -20,8 +20,8 @@ void readDIR(char* path){
     DIR *pDir = opendir(path);
     while((pDirent = readdir(pDir))!= NULL){
         char* name = pDirent->d_name;
-        if(check(poop)==1){
-            name = linux_text_format(poop);
+        if(check(name)==1){
+            name = linux_text_format(name);
 
         //read and write the file in the path 
             system("echo $HOME >> path.txt");
