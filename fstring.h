@@ -11,7 +11,7 @@ int count(char* str1 ){
 }
 
 char* connect(char* str1 , char* str2){
-    char* connected_file =(char*)malloc(count(str1)+count(str2)+2);
+    char* connected_file =(char*)malloc(count(str1)+count(str2)+1);
     
     int file_i =0;
     for(int i = 0 ; i< count(str1) ; i++){
@@ -23,6 +23,7 @@ char* connect(char* str1 , char* str2){
         connected_file[file_i] =str2[j];
         file_i++;
     }
+     connected_file[file_i]='\0';
 
     return connected_file;
 }

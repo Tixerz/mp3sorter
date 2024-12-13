@@ -61,7 +61,9 @@ void readDIR(char* path){
             sleep(1);
             
         }
-    }   
+    }  
+
+            closedir(pDir);
 }
 int main(int argc , char* argv[]){
     int x = 0;
